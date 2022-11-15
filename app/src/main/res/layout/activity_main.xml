@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="#E91E63"
+       android:text="Start Recording"
+       android:textSize="20sp"
+       android:padding="15dp"
+       android:id="@+id/startRecordBtn"
+       />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="#8BC34A"
+       android:text="Stop Recording"
+       android:textSize="20sp"
+       android:layout_marginTop="15dp"
+       android:padding="15dp"
+       android:id="@+id/stopRecordBtn"
+       />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="#009688"
+       android:text="Start Playing"
+       android:textSize="20sp"
+       android:layout_marginTop="15dp"
+       android:padding="15dp"
+       android:id="@+id/startPlayBtn"
+       />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="#9C27B0"
+       android:text="Stop Playing"
+       android:textSize="20sp"
+       android:layout_marginTop="15dp"
+       android:padding="15dp"
+       android:id="@+id/stopPlayBtn"
+       />
+
+</LinearLayout>
